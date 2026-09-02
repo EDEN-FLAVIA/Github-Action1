@@ -3,7 +3,6 @@ name: Deploy HTML
 
 on:
   push:
-   
 
 permissions:
   contents: read
