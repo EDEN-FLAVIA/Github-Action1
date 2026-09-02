@@ -1,8 +1,9 @@
-name: Deploy Website
+
+name: Deploy HTML
 
 on:
   push:
-    branches: [main]
+   
 
 permissions:
   contents: read
@@ -23,3 +24,4 @@ jobs:
           path: .
 
       - uses: actions/deploy-pages@v4
+```
